@@ -18,29 +18,33 @@ The script automatically scans an input image for human faces and eyes, applying
 *   OpenCV for Python (`opencv-python`)
 
 Install the required library via pip:
-```bash
+
+[bash]
+
 pip install opencv-python
 
-Usage
-Clone or download this repository to your local machine.
+## Usage
+1. Clone or download this repository to your local machine.
 
-Take a clear, frontal photo of yourself.
+2. Take a clear, frontal photo of yourself.
 
-Rename the photo to me.jpg and place it in the exact same directory as the Python script.
+3. Rename the photo to me.jpg and place it in the exact same directory as the Python script.
 
-Run the script:
+4. Run the script:
 
-Bash
+[Bash]
+
 python portfolio_project.py
-Press any key while the image window is active to close the program safely.
 
-Output
+1. Press any key while the image window is active to close the program safely.
+
+## Output
 The script will display the annotated image in a new graphical window. Upon closing, it will automatically save a copy of the final annotated image to your working directory as annotated_me_dynamic.jpg.
 
-Troubleshooting
-No face detected: Ensure me.jpg is well-lit and your face is not heavily occluded by shadows, hair, or glasses. You can also adjust the scaleFactor or minNeighbors variables in the detectMultiScale function to increase the detection sensitivity.
+## Troubleshooting
+* **No face detected:** Ensure me.jpg is well-lit and your face is not heavily occluded by shadows, hair, or glasses. You can also adjust the scaleFactor or minNeighbors variables in the detectMultiScale function to increase the detection sensitivity.
 
-Missing File Error: If the script crashes immediately, ensure your input image is named exactly me.jpg (check that your OS isn't hiding a double extension like me.jpg.jpg).
+* **Missing File Error:** If the script crashes immediately, ensure your input image is named exactly me.jpg (check that your OS isn't hiding a double extension like me.jpg.jpg).
 
-Author
+## Author
 Laxman Adhikari
